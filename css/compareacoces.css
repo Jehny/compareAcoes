@@ -1,0 +1,326 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Semibold';
+    src: url('fonts/Roboto-Medium.ttf') format('truetype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('fonts/Roboto-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-CondLight';
+    src: url('fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-CondBold';
+    src: url('fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('fonts/Roboto-Thin.ttf') format('truetype');
+    font-style: normal;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+}
+
+#topo {
+	z-index: 2;
+	width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: black;
+}
+
+#topo header {
+	padding-left: 5%;
+
+}
+
+#topo header h1 {
+	margin: 0;
+}
+
+#topo header h1 a {
+	/*background: url(../imgs/logo_topo.png) no-repeat;*/
+	height: 92px;
+	float: left;
+	width: 100%;
+	margin-top: 3%;
+}
+
+#topo header h1 a img {
+	max-width: 100%;
+}
+
+#menu {
+	margin-bottom: 10px;
+}
+
+#menu nav {
+	text-align: right;
+	float: right;
+	padding-top: 1%;
+	padding-right: 2px;
+	margin-right: 7%;
+	height: 73px;
+	background: black;
+}
+
+#menu nav ul {
+	float: right;
+	height: 71px;
+	padding-top: 3.5%;
+}
+
+#menu nav li {
+	margin: -2px;
+	padding: 0;
+	margin-top: 7px;
+}
+
+#menu nav li a {
+	margin: 0px;
+	padding: 25px 20px 28px 20px;
+	margin-left: -1px;
+	color: white;
+    font-size: 18px;
+    font-family: 'Roboto-CondLight';
+}
+
+#menu nav .logCad a {
+	margin-left: 40%;
+}
+
+#menu nav li .queroContratar {
+	text-transform: none;
+	color: white;
+	background: #505050;
+    font-size: 16px;
+    border-radius: 30px;
+    padding-bottom: 6%;
+    padding-top: 6%;
+
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#banner .carousel-control {
+  height: 6%;
+  top: 28%;
+  width: 9%;
+}
+
+.carousel-control.left {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+}
+.carousel-control.right {
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.left {
+  background-image: none;
+  height: 94%;
+}
+.carousel-control.right {
+  background-image: none;
+  height: 94%;
+}
+
+.carousel-inner {height: 100%;}
+
+.carousel-inner>.item {
+	width: 100%;
+}
+.carousel-caption {
+	left: 16%;
+    top: 20%;
+    text-align: left;
+    max-width: 35%;
+    font-family: 'Roboto';
+    text-shadow: none;
+}
+
+.carousel-caption h3 {
+	font-family: 'Roboto-CondBold';
+	font-size: 44px;
+	color: #707070;
+}
+
+.carousel-caption h4 {
+	font-family: 'Roboto-CondLight';
+	font-size: 15px;
+	color: #707070;
+	letter-spacing: 1.5;
+    line-height: 1.5;
+    color: #707070;
+    max-width: 90%;
+    padding-bottom: 7%;
+}
+
+.carousel-caption p span {
+	color: #B89237;
+	font-size: 20px;
+}
+
+.carousel-caption p a {
+	background: black;
+	color: white;
+	padding: 3% 6% 3% 6%;
+}
+.carousel-caption p a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.carousel-indicators{top: 80%;}
+.carousel-indicators li {
+	background-color: white !important;
+	width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators .active {
+	background-color: black !important;
+	width: 15px;
+	height: 15px;
+	border-color: black;
+}
+
+#subBanner {overflow: hidden; font-family: 'Roboto-CondBold';}
+#subBanner .conf {
+	background-color: #707070;
+	color:  white;
+	text-align: center;
+}
+
+#subBanner .conf .text {
+	color:  white;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+#subBanner .conf .icone {
+	padding-bottom: 4%;
+}
+#subBanner .conf .icone img {width: 18%;}
+
+#subBanner .multi {
+	background-color: #1A1616;
+	color:  white;
+	text-align: center;
+}
+
+#subBanner .multi .text {
+	color:  white;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+#subBanner .multi .icone {
+	padding-bottom: 5.8%;
+}
+#subBanner .multi .icone img {width: 15.5%;}
+
+#subBanner .acoes {
+	background-color: #000000;
+	color:  white;
+	text-align: center;
+}
+#subBanner .acoes .text {
+	color:  white;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+#subBanner .acoes .icone {
+	padding-bottom: 4%;
+}
+#subBanner .acoes .icone img {width: 16.6%;}
+
+#sobre {
+	padding: 5%; 
+	font-family: 'Roboto-CondLight';
+	overflow: hidden;
+}
+#sobre h2 {
+	font-family: 'Roboto-CondBold';
+	text-align: center; 
+}
+#sobre hr {
+	margin-bottom: 6%;
+	margin-top: 3%;
+	width: 16%;
+	color: black;
+	border: 1px solid;
+}
+
+#sobre .nav-tabs>li {
+    background: #707070;
+    border-right: 2px solid white;
+}
+#sobre .nav-tabs>li>a {
+	border-radius: 0px;
+	color: white;
+	border: none;
+}
+
+#aobre .nav-tabs>li>a:hover {
+	background-color: #000000;
+}
+
+#sobre .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: #fff;
+    cursor: default;
+    background-color: #000000;
+    border-right: 1px solid white;
+}
+#sobre .tabs{}
+#sobre .tabs .tab-content {
+	margin-top: 5%;
+	width: 86%;
+}
+#sobre .tabs .tab-content p {}
+#sobre .descricao {padding-left: 6%;}
+#sobre .descricao .texto {margin-bottom: 8%; }
+#sobre .descricao .texto p {}
+#sobre .descricao p a {
+	text-decoration: none;
+	background: black;
+	padding: 2% 5% 2% 5%;
+	color: white;
+	margin-top: 4%;
+}
+
+#sobre .descricao p a:hover {
+	font-weight: bold;
+}
