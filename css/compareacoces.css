@@ -42,6 +42,7 @@
 
 .container-fluid {
 	padding: 0;
+	width: 100%;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -156,7 +157,7 @@
   height: 94%;
 }
 
-.carousel-inner {height: 100%;}
+.carousel-inner {height: auto;}
 
 .carousel-inner>.item {
 	width: 100%;
@@ -267,16 +268,33 @@
 }
 #subBanner .acoes .icone img {width: 16.6%;}
 
-#sobre {
-	padding: 5%; 
+#sobre, #blog, #compare, #mobile{
+	padding: 5% 5% 1% 5%; 
 	font-family: 'Roboto-CondLight';
 	overflow: hidden;
 }
-#sobre h2 {
+#sobre h2, #blog h2, #compare h2, #mobile h2 {
 	font-family: 'Roboto-CondBold';
 	text-align: center; 
 }
-#sobre hr {
+
+#mobile {text-align: center;}
+
+#mobile p {
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#mobile a, #mobile a:hover {
+	color: white;
+	background: black;
+	font-family: 'Roboto';
+	font-weight: bold;
+	padding: 5% 30% 5% 30%;
+}
+.traco {
 	margin-bottom: 6%;
 	margin-top: 3%;
 	width: 16%;
@@ -284,18 +302,43 @@
 	border: 1px solid;
 }
 
+.traco2 {
+	margin-top: 2%;
+	color: black;
+	border: 1px solid;
+}
+
+.traco3 {
+	margin-top: 3%;
+	width: 16%;
+	color: white;
+	border: 1px solid;
+}
+
+#sobre .nav-tabs {
+	border-bottom: none;
+}
+
 #sobre .nav-tabs>li {
     background: #707070;
     border-right: 2px solid white;
+    width: 32%;
+    height: 60px;
+    font-family: 'Roboto';
+    text-align: center;
 }
+
 #sobre .nav-tabs>li>a {
 	border-radius: 0px;
 	color: white;
 	border: none;
+	margin-right: 0px;
+	padding-top: 11%;
 }
 
-#aobre .nav-tabs>li>a:hover {
+#sobre .nav-tabs>li>a:hover {
 	background-color: #000000;
+	height: 60px;
 }
 
 #sobre .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -303,10 +346,44 @@
     cursor: default;
     background-color: #000000;
     border-right: 1px solid white;
+    height: 60px;
+    padding-top: 11%;
 }
+#sobre .nav-tabs>li.active:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 0; 
+	height: 0; 
+
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #000;
+}
+
+#sobre .tabs2 .nav-tabs>li.active:after {
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 0px solid #000;
+}
+
+#sobre .tabs2 .nav-tabs>li {
+	width: 100%;
+	margin-bottom: 4%;
+}
+
+#sobre .tabs2 .nav-tabs>li>a{
+	padding-top: 6%;
+}
+
+#sobre .tabs2 .nav-tabs>li.active>a, #sobre .tabs2 .nav-tabs>li.active>a:focus, #sobre .tabs2 .nav-tabs>li.active>a:hover {
+	padding-top: 7%;
+}
+
 #sobre .tabs{}
 #sobre .tabs .tab-content {
-	margin-top: 5%;
+	margin-top: 7%;
 	width: 86%;
 }
 #sobre .tabs .tab-content p {}
@@ -324,3 +401,364 @@
 #sobre .descricao p a:hover {
 	font-weight: bold;
 }
+
+/**
+*** Seta para BAIXO
+**/
+/* .seta-baixo:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #000;
+} */
+
+#blog h4 {
+	padding: 2%; 
+	font-family: 'Roboto-CondLight';
+	text-align: center;
+}
+
+#blog .post-out {
+	margin-bottom: 5%;
+}
+
+#blog .post-out .post {
+	background: #FDFDFD;
+	padding:6% 6% 20% 6%;
+	border-bottom: 3px solid #000;
+}
+
+#blog .post-out .post h3 {
+	font-family: 'Roboto-CondBold';
+	font-size: 20px;
+	height: 70px;
+}
+#blog .post-out .post p {
+	font-size: 14px;
+	margin-top: 10%;
+}
+
+#compare h4 {
+	padding: 2%; 
+	font-family: 'Roboto-CondLight';
+	text-align: center;
+}
+
+#compare .post-out {
+	margin-bottom: 5%;
+}
+
+#compare .post-out .post {
+	background: #FDFDFD;
+	padding:6% 6% 6% 6%;
+}
+
+#compare .post-out .post h3 {
+	font-family: 'Roboto';
+    font-size: 20px;
+    margin-bottom: 8%;
+}
+
+#compare .post-out .post .quadro {
+	background: black;
+	color: white;
+	margin-top: 15%;
+	padding: 7% 10% 7% 10%;
+	min-height: 405px;
+}
+
+#compare .post-out .post .quadro p {
+	font-size: 12px;
+	margin-top: 10%;
+	border-bottom: 1px solid;
+	padding-bottom: 6%;
+}
+
+#compare .post-out .post .quadro p:last-child {
+	border-bottom: none;
+}
+
+#newsletter {
+
+}
+
+#newsletter .conteudo {
+	background: #1A1616;
+	padding: 3% 5% 8% 5%;
+	color: white;
+	font-family: 'Roboto-CondBold';
+}
+#newsletter:before{
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    position: absolute;
+    margin-left: 48.9%;
+}
+
+#newsletter .texto {padding-left: 0px;}
+#newsletter .texto p {width: 64%;}
+#newsletter .form {}
+
+#newsletter .form form {margin-bottom: 0%;}
+#newsletter .form form input {
+	width: 66%;
+	height: 45px;
+	margin-bottom: 1%;
+	padding-left: 1%;
+}
+#newsletter .form form button {
+	background: #707070;
+	color: white;
+	border: none;
+    padding: 1.3% 4% 1.3% 4%;
+    font-size: 16px;
+}
+#newsletter .form p {}
+
+footer {
+	background: black;
+	color: white;
+}
+footer .logo {
+	padding-left: 5%; 
+	padding-top: 4.1%; 
+	padding-bottom: 3%;}
+footer .logo, footer .menuFooter, footer .textoFooter{
+	background: black;
+}
+footer .menuFooter {
+	padding-top: 1%;
+	padding-bottom: 5.2%;
+}
+footer #menu {
+	margin-top: 2%;
+}
+footer .texto {
+	padding-top: 20%;
+	margin-bottom: 26%;
+}
+
+.obsFooter{ 
+	background: white;
+	font-family: 'Roboto-CondLight';
+	color: black;
+	padding: 2% 3% 2% 3%;
+}
+.obsFooter p {
+	text-align: justify;
+}
+
+/* CSS Responsivo */
+
+#buttom_menu {
+
+}
+
+.footer {
+	overflow: auto;
+	background: black;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+@media (width: 320px) {
+	#mobile a, #mobile a:hover {
+		padding: 5% 25% 5% 25%;
+	}
+
+	#newsletter:before {
+		border-left: 0px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 0px solid white;
+	}
+	#newsletter .conteudo {
+		overflow: auto;
+	}
+
+	#newsletter .texto {
+		padding-left: 4%;
+		font-size: 25px;
+	}
+
+	#newsletter .texto p {
+		width: 100%;
+	}
+
+	#newsletter .form form button{
+		font-size: 22px;
+		padding: 5.3% 12% 5.3% 12%;
+	}
+
+	#newsletter .form form input {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+
+	#newsletter .form form p {
+		font-size: 17px;
+		margin-bottom: 8%;
+	}
+
+	footer .textoFooter {
+		text-align: center;
+	}
+
+	footer .texto {
+		padding-top: 11%;
+	}
+}
+@media (min-width: 321px) and (max-width: 736px) {
+	#mobile a, #mobile a:hover {
+		padding: 5% 29% 5% 29%;
+	}
+
+	#newsletter:before {
+		border-left: 0px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 0px solid white;
+	}
+	#newsletter .conteudo {
+		overflow: auto;
+	}
+
+	#newsletter .texto {
+		padding-left: 4%;
+		font-size: 25px;
+	}
+
+	#newsletter .texto p {
+		width: 100%;
+	}
+
+	#newsletter .form form button{
+		font-size: 22px;
+		padding: 5.3% 12% 5.3% 12%;
+	}
+
+	#newsletter .form form input {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+
+	#newsletter .form form p {
+		font-size: 17px;
+		margin-bottom: 8%;
+	}
+
+	footer .textoFooter {
+		text-align: center;
+	}
+
+	footer .texto {
+		padding-top: 11%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 823px) {
+	#topo header h1 a img {
+		margin-top: 9%;
+	}
+	#menu nav .logCad a {
+		margin-left: 0%;
+	}
+
+	#menu nav li a {
+		padding: 25px 8px 28px 8px;
+	}
+
+	#menu nav {
+		margin-right: 0%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 12px;	
+	}
+
+	#sobre .tabs {
+		padding-right: 0;
+	}
+
+	#sobre .nav-tabs>li:last-child {
+		width: 36%;
+	}
+
+	#newsletter .texto p {
+		width: 80%;
+	}
+
+	#newsletter .conteudo {
+		overflow: auto;
+		padding-bottom: 2%;
+		padding-top: 5%;
+	}
+
+	#newsletter .form form button {
+		padding: 2.4% 4% 2.4% 4%;
+	}
+
+	footer .texto {
+		padding-top: 10%;
+		margin-bottom: 4%;
+		text-align: center;
+	}
+
+	footer .logo {
+		padding-bottom: 4%;
+	}
+
+}
+
+@media (width: 1024px) {
+	#topo header h1 a img {
+		margin-top: 9%;
+	}
+	#menu nav .logCad a {
+		margin-left: 0%;
+	}
+
+	#menu nav li a {
+		padding: 25px 8px 28px 8px;
+	}
+
+	#menu nav {
+		margin-right: 0%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 12px;	
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

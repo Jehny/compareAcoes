@@ -43,13 +43,11 @@
 							<li><a href="" class="">FERRAMENTA</a></li>
 							<li><a href="" class="">SOBRE</a></li>
 							<li><a href="" class="">CONTATO</a></li>
-							<li class="logCad"><a href="" class="">LOGIN/CADASTRO</a></li>
-						</li>
 					</ul>
 				</div>
 			</div> <!-- div do header -->
 
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div id="carousel-example-generic" class="hidden-xs carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
 			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -59,7 +57,7 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" role="listbox">
 			    <div class="item active">
-			      <img src="img/banner.png" alt="...">
+			      <img src="img/banner.png" alt="">
 			       <div class="carousel-caption">
 	  				    <h3>Conheça a melhor e mais atualizada ferramenta de fundos do Brasil!</h3>
 	  				    <h4>Avalie a rentabilidade histórica, evolução do patrimônio, nível de risco, estatísticas relevantes e muito mais para mais de 25 mil fundos.</h4>
@@ -67,14 +65,13 @@
 	  				</div>
 			    </div>
 			    <div class="item">
-			      <img src="img/banner.png" alt="...">
+			      <img src="img/banner.png" alt="">
 			      <div class="carousel-caption">
 				    <h3>Conheça a melhor e mais atualizada ferramenta de fundos do Brasil!</h3>
   				    <h4>Avalie a rentabilidade histórica, evolução do patrimônio, nível de risco, estatísticas relevantes e muito mais para mais de 25 mil fundos.</h4>
   				    <p><a href="" title="">COMPARE FUNDOS</a></p>
 				  </div>
 			    </div>
-			    ...
 			  </div>
 
 			  <!-- Controls -->
@@ -107,23 +104,44 @@
 					</p>
 				</div>
 			</div>
-
+			<div id="mobile" class="row-fluid col-xs-12 hidden-sm hidden-md hidden-lg">
+				<h2>Conheça a melhor e mais atualizada ferramenta de fundos do Brasil!</h2>
+				<p>
+					Avalie a rentabilidade histórica, evolução do patrimônio, nível de risco, estatísticas relevantes e muito mais para mais de 25 mil fundos.
+				</p>
+				<p><a href="" title="">COMPARE FUNDOS</a></p>
+			</div>
 			<div id="sobre" class="row-fluid">
 				<h2>Sobre a Compare Ações</h2>
-				<hr>
-				<div class="col-xs-6 col-sm-6 col-md-6 tabs">
+				<hr class="traco">
+				<div class="col-xs-12 col-sm-6 col-md-6 tabs">
 					<!-- Nav tabs -->
-					<ul class="nav nav-tabs" role="tablist">
-					  <li class="nav-item active">
-					    <a class="nav-link" data-toggle="tab" href="#historia" role="tab">HISTÓRIA</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" data-toggle="tab" href="#equipe" role="tab">EQUIPE</a>
-					  </li>
-					  <li class="nav-item">
-					    <a class="nav-link" data-toggle="tab" href="#vantagens" role="tab">VANTAGENS</a>
-					  </li>
-					</ul>
+					<div class="tabs1 hidden-xs">
+						<ul class="nav nav-tabs" role="tablist">
+						  <li class="nav-item active">
+						    <a class="nav-link" data-toggle="tab" href="#historia" role="tab">HISTÓRIA</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#equipe" role="tab">EQUIPE</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#vantagens" role="tab">VANTAGENS</a>
+						  </li>
+						</ul>
+					</div>
+					<div class="tabs2 hidden-sm hidden-md hidden-lg">
+						<ul class="nav nav-tabs" role="tablist">
+						  <li class="nav-item active">
+						    <a class="nav-link" data-toggle="tab" href="#historia" role="tab">HISTÓRIA</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#equipe" role="tab">EQUIPE</a>
+						  </li>
+						  <li class="nav-item">
+						    <a class="nav-link" data-toggle="tab" href="#vantagens" role="tab">VANTAGENS</a>
+						  </li>
+						</ul>
+					</div>
 
 					<!-- Tab panes -->
 					<div class="tab-content">
@@ -137,7 +155,7 @@
 					 
 					</div>
 				</div>
-				<div class="col-xs-6 col-sm-6 col-md-6 descricao">
+				<div class="hidden-xs col-sm-6 col-md-6 descricao">
 					<div class="texto">
 						<p>
 							Doing the right thing, at the right time. Welcome to the leading company on the market! Our success is driven by the highest quality customer service. We can meet the requirements even of the whimsical clients; there are no complex tasks for us! Thanks for your choice! Our company can boast the reputation of the trusted partner known worldwide. We are proud of the uncompromising quality of services
@@ -150,7 +168,144 @@
 						<p><a href="" title="">COMPARE FUNDOS</a></p>	
 					</div>
 				</div>
+			</div> <!-- fim seção sobre -->
+			
+
+			<div id="blog" class="row-fluid">
+				<h2>Aprenda mais sobre investimentos</h2>
+				<h4>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!
+				<hr class="traco">
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>Títulos com ou sem cupom? Qual a melhor alternativa?</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>A volta ao mundo em juros negativos</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>Qual a diferença entre um analista buy-side e um sell-side?</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>O que tem de Real na moeda única do Mercosul?</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>Como poupar dinheiro no dia-a-dia: 7 dicas rápidas!</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>10 frases inspiradoras sobre investimentos que você precisa conhecer</h3>
+						<p>Toda semana, especialistas em investimentos compartilham o seu conhecimento no blog do Mais Retorno. Fique ligado!</p>
+					</div>
+				</div>
+			</div><!-- fim seção SOBRE -->
+
+			<div id="compare" class="row-fluid">
+				<h2>Compare Ações</h2>
+				<h4>Confira abaixo os fundos com maior retorno dos últimos 6 meses.
+				<hr class="traco">
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>RENDA FIXA</h3>
+						<hr class="traco2">
+						<div class="quadro">
+							<p>BANESTES INSTITUCIONAL FI RF 19,94%</p>
+							<p>ITAÚ FLEXPREV VÉRTICE IMAB5 MAIS RF FI 19,78%</p>
+							<p>ITAÚ FLEXPREV VÉRTICE IMAB5 MAIS RF FI 19,78%</p>
+							<p>BRASILPREV TOP ATUARIAL FI RF 19,65%</p>
+							<p>BTG PACTUAL TESOURO IPCA LONGO FI RF REFERENCIADO 19,60%</p>
+							<p>FI CAIXA BRASIL IMA B 5+ TITULOS PÚBLICOS RF LP 19,52%</p>
+						</div>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>MULTIMERCADOS</h3>
+						<hr class="traco2">
+						<div class="quadro">
+							<p>LOGOS FIC FIM 49,86% </p>
+							<p>BNP PARIBAS CAPITAL PROTEGIDO X FIC FIM 39,80% </p>
+							<p>SAFRA S&P FIM 26,29% </p>
+							<p>SAFRA S&P TOP FIC FIM 25,66% </p>
+						</div>
+					</div>
+				</div>
+				<div class="post-out col-xs-12 col-sm-6 col-md-4">
+					<div class="post">
+						<h3>AÇÕES</h3>
+						<hr class="traco2">
+						<div class="quadro">
+							<p>E2M INTRUST FIA 76,43% </p>
+							<p>CSN INVESTIMENTO FIA 66,43% </p>
+							<p>GUEPARDO FIC FIA 37,72% </p>
+							<p>TAGUS FUNDAMENTAL FIA 36,23% </p>
+							<p>SAFRA CONSUMO AMERICANO FIA BDR NÍVEL I PB 29,70% </p>
+						</div>
+					</div>
+				</div>
+			</div><!-- fim seção COMPARE AÇÕES -->
+			
+			<div id="newsletter" class="row-fluid">
+				<div class="conteudo">
+					<div class="texto col-xs-12 col-sm-3 col-md-3">
+						<p>Receba novos artigos em primeira mão</p>
+					</div>
+					<div class="form col-xs-12 col-sm-9 col-md-9">
+						<form action="" method="" accept-charset="utf-8">
+							<input type="email" name="newsletter" value="" placeholder="Newsletter">
+							<p class="hidden-sm hidden-md hidden-lg">Receba gratuitamente dicas preciosas para os seus próximos passos no mercado financeiro.</p>
+							<button type="submit" name="enviar">Enviar</button>
+							<p class="hidden-xs">Receba gratuitamente dicas preciosas para os seus próximos passos no mercado financeiro.</p>
+						</form>
+					</div>
+				</div>
 			</div>
+		<footer>
+			<div class="footer">
+				<div class="logo col-xs-12 col-sm-6 col-md-4">
+					<a href=""><img src="img/logo_branca.png" class="img-responsive" alt="Compare Ações"></a></h1>
+				</div>
+				<div class="menuFooter hidden-xs hidden-sm col-md-6">
+					<div id="menu">
+						<nav>
+							<ul class="list-inline">
+								<li><a href="" class="">HOME</a></li>
+								<li><a href="" class="">FERRAMENTA</a></li>
+								<li><a href="" class="">SOBRE</a></li>
+								<li><a href="" class="">CONTATO</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="textoFooter col-xs-12 col-sm-6 col-md-2">
+					<p class="texto">
+						Ajuda e supporte <br/>
+						Fale com a gente <br/>
+						 4007-2927 <br/>
+						contato@maisretorno.com
+					</p>
+				</div>
+			</div>
+			
+		</footer>
+		
 		</section>
+		<div class="obsFooter">
+			<p>As informações disponibilizadas na ferramenta de fundos do Mais Retorno não configuram um relatório de análise ou qualquer tipo de recomendação e foram obtidas a partir de fontes públicas como a CVM. Rentabilidade passada não representa garantia de resultados futuros e apesar do cuidado na coleta e manuseio das informações, elas não foram conferidas individualmente. As informações são enviadas pelos próprios gestores aos órgãos reguladores e podem haver divergências pontuais e atraso em determinadas atualizações. O Mais Retorno, seus sócios, administradores, representantes legais e funcionários não garantem sua exatidão, atualização, precisão, adequação, integridade ou veracidade, tampouco se responsabilizam pela publicação acidental de dados incorretos. É proibida a reprodução total ou parcial de textos, fotos, ilustrações ou qualquer outro conteúdo deste site por qualquer meio sem a prévia autorização de seu autor/criador ou do administrador, conforme LEI Nº 9.610, de 19 de fevereiro de 1998.
+			</p>
+		</div>
 	</body>
 </html>
