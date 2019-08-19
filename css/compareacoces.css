@@ -135,7 +135,7 @@
 
 #banner .carousel-control {
   height: 6%;
-  top: 28%;
+  top: 50%;
   width: 9%;
 }
 
@@ -575,9 +575,48 @@ footer .texto {
 	left: -71px;
 }
 
+#buttom_menu .glyphicon-menu-hamburger {
+	font-size: 2em;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+	background-color: #ffffff;
+}
+
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 @media (width: 320px) {
+	#topo {
+		overflow: inherit;
+		min-height: 14%;
+	}
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    left: -71px; 
+	}
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    /*left: 0px; */
+	}
+	.btn-group-vertical>.btn, .btn-group>.btn{
+		float: right;
+	}
+
+	#buttom_menu {
+	    margin-top: 4%;
+	}
+	#topo header h1 a img {
+	    margin-top: 4%;
+	    max-width: 100%;
+	}
 	#mobile a, #mobile a:hover {
 		padding: 5% 25% 5% 25%;
 	}
@@ -624,6 +663,82 @@ No media query since this is the default in Bootstrap */
 	}
 }
 @media (min-width: 321px) and (max-width: 736px) {
+	#topo {
+		overflow: inherit;
+		min-height: 24%;
+	}
+	@media (width: 360px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+	}
+	@media (width: 375px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+	}
+
+	@media (width: 411px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+	}
+	@media (width: 414px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+	}
+
+	@media (width: 568px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+	}
+
+	@media (width: 640px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+	}
+
+	@media (width: 667px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+	}
+
+	@media (width: 731px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+	}
+
+	@media (width: 736px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+	}
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    /*left: 0px; */
+	}
+	.btn-group-vertical>.btn, .btn-group>.btn{
+		float: right;
+	}
+
+	#buttom_menu {
+	    margin-top: 4%;
+	}
+
+	#topo header h1 a img {
+	    margin-top: 4%;
+	    max-width: 100%;
+	}
 	#mobile a, #mobile a:hover {
 		padding: 5% 29% 5% 29%;
 	}
@@ -705,6 +820,7 @@ No media query since this is the default in Bootstrap */
 @media (min-width: 768px) and (max-width: 823px) {
 	#topo header h1 a img {
 		margin-top: 9%;
+
 	}
 	#menu nav .logCad a {
 		margin-left: 0%;
