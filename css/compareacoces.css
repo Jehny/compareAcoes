@@ -596,6 +596,10 @@ No media query since this is the default in Bootstrap */
 		overflow: inherit;
 		min-height: 14%;
 	}
+
+	.dashTopo {
+		min-height: 14%;
+	}
 	.dropdown-menu {
 	    float: right;
 	    right: 15px;
