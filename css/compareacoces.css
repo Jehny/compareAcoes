@@ -589,336 +589,6 @@ footer .texto {
 	background-color: #ffffff;
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap */
-@media (width: 320px) {
-	#topo {
-		overflow: inherit;
-		min-height: 14%;
-	}
-
-	.dashTopo {
-		min-height: 14%;
-	}
-	.dropdown-menu {
-	    float: right;
-	    right: 15px;
-	    left: -71px; 
-	}
-	.dropdown-menu {
-	    float: right;
-	    right: 15px;
-	    /*left: 0px; */
-	}
-	.btn-group-vertical>.btn, .btn-group>.btn{
-		float: right;
-	}
-
-	#buttom_menu {
-	    margin-top: 4%;
-	}
-	#topo header h1 a img {
-	    margin-top: 4%;
-	    max-width: 100%;
-	}
-	#mobile a, #mobile a:hover {
-		padding: 5% 25% 5% 25%;
-	}
-
-	#newsletter:before {
-		border-left: 0px solid transparent;
-		border-right: 0px solid transparent;
-		border-top: 0px solid white;
-	}
-	#newsletter .conteudo {
-		overflow: auto;
-	}
-
-	#newsletter .texto {
-		padding-left: 4%;
-		font-size: 25px;
-	}
-
-	#newsletter .texto p {
-		width: 100%;
-	}
-
-	#newsletter .form form button{
-		font-size: 22px;
-		padding: 5.3% 12% 5.3% 12%;
-	}
-
-	#newsletter .form form input {
-		width: 100%;
-		margin-bottom: 4%;
-	}
-
-	#newsletter .form form p {
-		font-size: 17px;
-		margin-bottom: 8%;
-	}
-
-	footer .textoFooter {
-		text-align: center;
-	}
-
-	footer .texto {
-		padding-top: 11%;
-	}
-}
-@media (min-width: 321px) and (max-width: 736px) {
-	#topo {
-		overflow: inherit;
-		min-height: 24%;
-	}
-	@media (width: 360px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-	}
-	@media (width: 375px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-	}
-
-	@media (width: 411px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-	}
-	@media (width: 414px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-	}
-
-	@media (width: 568px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-	}
-
-	@media (width: 640px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-	}
-
-	@media (width: 667px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-	}
-
-	@media (width: 731px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-	}
-
-	@media (width: 736px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-	}
-	.dropdown-menu {
-	    float: right;
-	    right: 15px;
-	    /*left: 0px; */
-	}
-	.btn-group-vertical>.btn, .btn-group>.btn{
-		float: right;
-	}
-
-	#buttom_menu {
-	    margin-top: 4%;
-	}
-
-	#topo header h1 a img {
-	    margin-top: 4%;
-	    max-width: 100%;
-	}
-	#mobile a, #mobile a:hover {
-		padding: 5% 29% 5% 29%;
-	}
-
-	#newsletter:before {
-		border-left: 0px solid transparent;
-		border-right: 0px solid transparent;
-		border-top: 0px solid white;
-	}
-	#newsletter .conteudo {
-		overflow: auto;
-	}
-
-	#newsletter .texto {
-		padding-left: 4%;
-		font-size: 25px;
-	}
-
-	#newsletter .texto p {
-		width: 100%;
-	}
-
-	#newsletter .form form button{
-		font-size: 22px;
-		padding: 5.3% 12% 5.3% 12%;
-	}
-
-	#newsletter .form form input {
-		width: 100%;
-		margin-bottom: 4%;
-	}
-
-	#newsletter .form form p {
-		font-size: 17px;
-		margin-bottom: 8%;
-	}
-
-	footer .textoFooter {
-		text-align: center;
-	}
-
-	footer .texto {
-		padding-top: 11%;
-	}
-
-	#busca form input {
-		width: 75% !important;
-	}
-
-	#busca form button {
-		padding: 3.3% 4% 3.3% 4% !important;
-	}
-	.quadro .listCompare i {
-		margin-top: -12% !important;
-	}
-
-	.quadro form input {
-		width: 76% !important;
-		font-size: 14px !important;
-	}
-
-	.quadro form button {
-		padding: 1.5% 2% 1.5% 2% !important;
-	}
-
-	.quadro .listMes li {
-		font-size: 9px;
-	}
-
-	.quadro .resultados li, .quadro50 .listMes li {
-		font-size: 8px;
-	}
-
-	.quadro50 .resultados li {
-		font-size: 7px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 823px) {
-	#topo header h1 a img {
-		margin-top: 9%;
-
-	}
-	#menu nav .logCad a {
-		margin-left: 0%;
-	}
-
-	#menu nav li a {
-		padding: 25px 8px 28px 8px;
-	}
-
-	#menu nav {
-		margin-right: 0%;
-	}
-
-	.carousel-caption h3 {
-		font-size: 22px;
-	}
-
-	.carousel-caption h4 {
-		font-size: 12px;	
-	}
-
-	#sobre .tabs {
-		padding-right: 0;
-	}
-
-	#sobre .nav-tabs>li:last-child {
-		width: 36%;
-	}
-
-	#newsletter .texto p {
-		width: 80%;
-	}
-
-	#newsletter .conteudo {
-		overflow: auto;
-		padding-bottom: 2%;
-		padding-top: 5%;
-	}
-
-	#newsletter .form form button {
-		padding: 2.4% 4% 2.4% 4%;
-	}
-
-	footer .texto {
-		padding-top: 10%;
-		margin-bottom: 4%;
-		text-align: center;
-	}
-
-	footer .logo {
-		padding-bottom: 4%;
-	}
-
-}
-
-@media (width: 1024px) {
-	#topo header h1 a img {
-		margin-top: 9%;
-	}
-	#menu nav .logCad a {
-		margin-left: 0%;
-	}
-
-	#menu nav li a {
-		padding: 25px 8px 28px 8px;
-	}
-
-	#menu nav {
-		margin-right: 0%;
-	}
-
-	.carousel-caption h3 {
-		font-size: 22px;
-	}
-
-	.carousel-caption h4 {
-		font-size: 12px;	
-	}
-
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
 /* DASHBOARD PAGE */
 #busca {
 	padding-top: 2%;
@@ -968,6 +638,7 @@ No media query since this is the default in Bootstrap */
 
 .quadro .titleAndLink li {
 	color: #017AB4;
+	margin-bottom: 3%;
 }
 
 .quadro .titleAndLink li img {
@@ -1003,12 +674,12 @@ No media query since this is the default in Bootstrap */
 	margin-top: 0.5%;
 
 }
-.quadro .listCompare i { 
+/*.quadro .listCompare i { 
 	color: #707070;
 	float: right;
-	margin-top: -4%;
+	margin-top: 22%;
 	font-size: 20px; 
-}
+}*/
 
 .quadro .grafico {
 	margin-top: 2%;
@@ -1087,3 +758,405 @@ footer .obs {
 	padding-left: 2%;
 	padding-right: 2%;
 }
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+@media (width: 320px) {
+	#topo {
+		overflow: inherit;
+		min-height: 14%;
+	}
+
+	.dashTopo #topo {
+		min-height: 30%;
+	}
+
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    left: -71px; 
+	}
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    /*left: 0px; */
+	}
+	.btn-group-vertical>.btn, .btn-group>.btn{
+		float: right;
+	}
+
+	#buttom_menu {
+	    margin-top: 4%;
+	}
+	#topo header h1 a img {
+	    margin-top: 4%;
+	    max-width: 100%;
+	}
+	#mobile a, #mobile a:hover {
+		padding: 5% 25% 5% 25%;
+	}
+
+	#newsletter:before {
+		border-left: 0px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 0px solid white;
+	}
+	#newsletter .conteudo {
+		overflow: auto;
+	}
+
+	#newsletter .texto {
+		padding-left: 4%;
+		font-size: 25px;
+	}
+
+	#newsletter .texto p {
+		width: 100%;
+	}
+
+	#newsletter .form form button{
+		font-size: 22px;
+		padding: 5.3% 12% 5.3% 12%;
+	}
+
+	#newsletter .form form input {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+
+	#newsletter .form form p {
+		font-size: 17px;
+		margin-bottom: 8%;
+	}
+
+	footer .textoFooter {
+		text-align: center;
+	}
+
+	footer .texto {
+		padding-top: 11%;
+	}
+
+	#busca form input {width: 71% !important; font-size: 12px !important;}
+	#busca form button {padding: 3.8% 4% 4% 4% !important;}
+	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+	.quadro .listCompare .remove {padding: 0 2px 0 0;}
+	.quadro form input {width: 74% !important; font-size: 12px !important;}
+	.quadro form button {padding: 2% 2% 2% 2% !important;}
+	.quadro .resultados li {padding: 1.5% 0.5% 1.5% 0.5% !important; font-size: 8px !important;}
+	.quadro50 .resultados li {font-size: 9px !important;}
+	.quadro .titleAndLink li {font-size: 14px;}
+
+}
+@media (min-width: 321px) and (max-width: 736px) {
+	#topo {
+		overflow: inherit;
+		min-height: 24%;
+	}
+	.dropdown-menu {
+	    float: right;
+	    right: 15px;
+	    /*left: 0px; */
+	}
+	.btn-group-vertical>.btn, .btn-group>.btn{
+		float: right;
+	}
+
+	#buttom_menu {
+	    margin-top: 4%;
+	}
+
+	#topo header h1 a img {
+	    margin-top: 4%;
+	    max-width: 100%;
+	}
+	#mobile a, #mobile a:hover {
+		padding: 5% 29% 5% 29%;
+	}
+
+	#newsletter:before {
+		border-left: 0px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 0px solid white;
+	}
+	#newsletter .conteudo {
+		overflow: auto;
+	}
+
+	#newsletter .texto {
+		padding-left: 4%;
+		font-size: 25px;
+	}
+
+	#newsletter .texto p {
+		width: 100%;
+	}
+
+	#newsletter .form form button{
+		font-size: 22px;
+		padding: 5.3% 12% 5.3% 12%;
+	}
+
+	#newsletter .form form input {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+
+	#newsletter .form form p {
+		font-size: 17px;
+		margin-bottom: 8%;
+	}
+
+	footer .textoFooter {
+		text-align: center;
+	}
+
+	footer .texto {
+		padding-top: 11%;
+	}
+
+	#busca form input {
+		width: 75%;
+	}
+
+	#busca form button {
+		padding: 1.6% 4% 1.7% 4%;
+	}
+	/*.quadro .listCompare i {
+		margin-top: -12% !important;
+	}*/
+
+	.quadro form input {
+		width: 76% !important;
+		font-size: 14px !important;
+	}
+
+	.quadro form button {
+		padding: 1.5% 2% 1.5% 2% !important;
+	}
+
+	.quadro .listMes li {
+		font-size: 9px;
+	}
+
+	.quadro .resultados li, .quadro50 .listMes li {
+		font-size: 10px;
+	}
+
+	.quadro50 .resultados li {
+		font-size: 7px;
+	}
+	@media (width: 360px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+		.quadro .titleAndLink li {font-size: 14px;}
+		#busca form button { padding: 3% 4% 3.3% 4%; }
+		#topo header {background: black;}
+		#busca {background: black;}
+	}
+	@media (width: 375px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+		.quadro .listCompare i {float: right;}
+		#topo header {background: black;}
+		#busca {background: black;}
+		.buscarForm button{padding: 3% 4% 3.2% 4% !important;}
+	}
+
+	@media (width: 411px){
+		.dash #topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+		.quadro .listCompare i {float: right;}
+		.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+	}
+	@media (width: 414px){
+		#topo {
+			overflow: inherit;
+			min-height: 14%;
+		}
+		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+		#topo header {background: black;}
+		#busca {background: black;}
+		.quadro .listCompare i {float: right;}
+		.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+
+	}
+
+	@media (width: 568px){
+		.dashTopo #topo {
+			min-height: 62%;
+		}
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+		#busca form button {
+    		padding: 2.2% 4% 2.3% 4% !important;
+    	}
+    	.quadro .listCompare .remove { margin-top: 2%; }
+	}
+
+	@media (width: 640px){
+		.dashTopo #topo {min-height: 52%;}
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+		.quadro .listCompare i {float: right;}
+		#busca form button {
+		    padding: 1.8% 4% 2% 4%;
+		}
+	}
+
+	@media (width: 667px){
+		.dash #topo {
+			min-height: 34%;
+		}
+		#topo header {background: black;}
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+		#busca {background: black;}
+		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+		.quadro .listCompare i {float: right;}
+	}
+
+	@media (width: 731px){
+		.dashTopo #topo {min-height: 54%;}
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+		.quadro .listCompare i {float: right;}
+		.quadro .resultados li, .quadro50 .listMes li {font-size: 12px;}
+	}
+
+	@media (width: 736px){
+		#topo header h1 a img {
+		    max-width: 60% !important;
+		}
+		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+		#topo header {background: black;}
+		#busca {background: black;}
+		.quadro .listCompare i {float: right;}
+
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 823px) {
+	#topo header h1 a img {
+		margin-top: 9%;
+
+	}
+	#menu nav .logCad a {
+		margin-left: 0%;
+	}
+
+	#menu nav li a {
+		padding: 25px 8px 28px 8px;
+	}
+
+	#menu nav {
+		margin-right: 0%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 12px;	
+	}
+
+	#sobre .tabs {
+		padding-right: 0;
+	}
+
+	#sobre .nav-tabs>li:last-child {
+		width: 36%;
+	}
+
+	#newsletter .texto p {
+		width: 80%;
+	}
+
+	#newsletter .conteudo {
+		overflow: auto;
+		padding-bottom: 2%;
+		padding-top: 5%;
+	}
+
+	#newsletter .form form button {
+		padding: 2.4% 4% 2.4% 4%;
+	}
+
+	footer .texto {
+		padding-top: 10%;
+		margin-bottom: 4%;
+		text-align: center;
+	}
+
+	footer .logo {
+		padding-bottom: 4%;
+	}
+	#busca form button {
+		padding: 2.19% 4% 2.3% 4%;
+	}
+	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+	#busca form button{padding: 2.2% 4% 2.4% 4%;}
+}
+
+@media (width: 1024px) {
+	#topo header h1 a img {
+		margin-top: 9%;
+	}
+	#menu nav .logCad a {
+		margin-left: 0%;
+	}
+
+	#menu nav li a {
+		padding: 25px 8px 28px 8px;
+	}
+
+	#menu nav {
+		margin-right: 0%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 12px;	
+	}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
