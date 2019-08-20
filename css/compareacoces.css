@@ -563,7 +563,11 @@ footer .texto {
 /* CSS Responsivo */
 
 #buttom_menu {
-
+	position: absolute;
+    float: right;
+    right: 2%;
+    top: 3%;
+    z-index: 1000;
 }
 
 .footer {
@@ -572,7 +576,9 @@ footer .texto {
 }
 
 .dropdown-menu {
-	left: -71px;
+	right: 0;
+    float: right;
+    left: auto;
 }
 
 #buttom_menu .glyphicon-menu-hamburger {
@@ -674,12 +680,13 @@ footer .texto {
 	margin-top: 0.5%;
 
 }
-/*.quadro .listCompare i { 
-	color: #707070;
+.quadro .listCompare .remove {
+	padding-top: 1%;
+}
+.quadro .listCompare i { 
+	
 	float: right;
-	margin-top: 22%;
-	font-size: 20px; 
-}*/
+}
 
 .quadro .grafico {
 	margin-top: 2%;
@@ -763,15 +770,15 @@ footer .obs {
 No media query since this is the default in Bootstrap */
 @media (width: 320px) {
 	#topo {
-		overflow: inherit;
-		min-height: 14%;
+		/*overflow: inherit;
+		min-height: 14%;*/
 	}
 
 	.dashTopo #topo {
 		min-height: 30%;
 	}
 
-	.dropdown-menu {
+	/*.dropdown-menu {
 	    float: right;
 	    right: 15px;
 	    left: -71px; 
@@ -779,18 +786,18 @@ No media query since this is the default in Bootstrap */
 	.dropdown-menu {
 	    float: right;
 	    right: 15px;
-	    /*left: 0px; */
-	}
+	    left: 0px; 
+	}*/
 	.btn-group-vertical>.btn, .btn-group>.btn{
 		float: right;
 	}
 
 	#buttom_menu {
-	    margin-top: 4%;
+	    /*margin-top: 4%;*/
 	}
 	#topo header h1 a img {
 	    margin-top: 4%;
-	    max-width: 100%;
+	    max-width: 80%;
 	}
 	#mobile a, #mobile a:hover {
 		padding: 5% 25% 5% 25%;
@@ -850,25 +857,25 @@ No media query since this is the default in Bootstrap */
 }
 @media (min-width: 321px) and (max-width: 736px) {
 	#topo {
-		overflow: inherit;
-		min-height: 24%;
+		/*overflow: inherit;
+		min-height: 20%;*/
 	}
 	.dropdown-menu {
-	    float: right;
+	    /*float: right;
 	    right: 15px;
-	    /*left: 0px; */
+	    left: -71px; */
 	}
 	.btn-group-vertical>.btn, .btn-group>.btn{
 		float: right;
 	}
 
 	#buttom_menu {
-	    margin-top: 4%;
+	    /*margin-top: 4%;*/
 	}
 
 	#topo header h1 a img {
 	    margin-top: 4%;
-	    max-width: 100%;
+	    max-width: 80%;
 	}
 	#mobile a, #mobile a:hover {
 		padding: 5% 29% 5% 29%;
@@ -946,113 +953,113 @@ No media query since this is the default in Bootstrap */
 	.quadro50 .resultados li {
 		font-size: 7px;
 	}
-	@media (width: 360px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
-		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
-		.quadro .titleAndLink li {font-size: 14px;}
-		#busca form button { padding: 3% 4% 3.3% 4%; }
+}
+
+@media (width: 360px){
+	#topo {
+		/*overflow: inherit;
+		min-height: 16%;*/
+	}
+	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+	.quadro .titleAndLink li {font-size: 14px;}
+	#busca form button { padding: 3% 4% 3.3% 4%; }
 		#topo header {background: black;}
-		#busca {background: black;}
+	#busca {background: black;}
+}
+@media (width: 375px){
+	#topo {
+		/*overflow: inherit;
+		min-height: 14%;*/
 	}
-	@media (width: 375px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-		.quadro .listCompare i {float: right;}
-		#topo header {background: black;}
-		#busca {background: black;}
-		.buscarForm button{padding: 3% 4% 3.2% 4% !important;}
-	}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+	#topo header {background: black;}
+	#busca {background: black;}
+	.buscarForm button{padding: 3% 4% 3.2% 4% !important;}
+}
 
-	@media (width: 411px){
-		.dash #topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-		.quadro .listCompare i {float: right;}
-		.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+@media (width: 411px){
+	.dash #topo {
+		overflow: inherit;
+		min-height: 16% !important;
 	}
-	@media (width: 414px){
-		#topo {
-			overflow: inherit;
-			min-height: 14%;
-		}
-		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-		#topo header {background: black;}
-		#busca {background: black;}
-		.quadro .listCompare i {float: right;}
-		.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
-
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+	.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+}
+@media (width: 414px){
+	#topo {
+		/*overflow: inherit;
+		min-height: 14%;*/
 	}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	#topo header {background: black;}
+	#busca {background: black;}
+	.quadro .listCompare i {float: right;}
+	.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
 
-	@media (width: 568px){
-		.dashTopo #topo {
-			min-height: 62%;
-		}
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-		#busca form button {
-    		padding: 2.2% 4% 2.3% 4% !important;
-    	}
-    	.quadro .listCompare .remove { margin-top: 2%; }
+}
+
+@media (width: 568px){
+	.dashTopo #topo {
+		min-height: 62%;
 	}
-
-	@media (width: 640px){
-		.dashTopo #topo {min-height: 52%;}
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
-		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
-		.quadro .listCompare i {float: right;}
-		#busca form button {
-		    padding: 1.8% 4% 2% 4%;
-		}
+	#topo header h1 a img {
+	    max-width: 60% !important;
 	}
-
-	@media (width: 667px){
-		.dash #topo {
-			min-height: 34%;
-		}
-		#topo header {background: black;}
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-		#busca {background: black;}
-		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-		.quadro .listCompare i {float: right;}
+	#busca form button {
+		padding: 2.2% 4% 2.3% 4% !important;
 	}
+	.quadro .listCompare .remove { margin-top: 2%; }
+}
 
-	@media (width: 731px){
-		.dashTopo #topo {min-height: 54%;}
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
-		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
-		.quadro .listCompare i {float: right;}
-		.quadro .resultados li, .quadro50 .listMes li {font-size: 12px;}
+@media (width: 640px){
+	.dashTopo #topo {min-height: 52%;}
+	#topo header h1 a img {
+	    max-width: 60% !important;
 	}
-
-	@media (width: 736px){
-		#topo header h1 a img {
-		    max-width: 60% !important;
-		}
-		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-		#topo header {background: black;}
-		#busca {background: black;}
-		.quadro .listCompare i {float: right;}
-
+	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+	#busca form button {
+	    padding: 1.8% 4% 2% 4%;
 	}
-	
+}
+
+@media (width: 667px){
+	.dash #topo {
+		min-height: 34%;
+	}
+	#topo header {background: black;}
+	#topo header h1 a img {
+	    max-width: 60% !important;
+	}
+	#busca {background: black;}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+}
+
+@media (width: 731px){
+	.dashTopo #topo {min-height: 54%;}
+	#topo header h1 a img {
+	    max-width: 60% !important;
+	}
+	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
+	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+	.quadro .resultados li, .quadro50 .listMes li {font-size: 12px;}
+}
+
+@media (width: 736px){
+	#topo header h1 a img {
+	    max-width: 60% !important;
+	}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	#topo header {background: black;}
+	#busca {background: black;}
+	.quadro .listCompare i {float: right;}
+
 }
 
 @media (min-width: 768px) and (max-width: 823px) {
@@ -1147,16 +1154,3 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare i {float: right;}
 
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
