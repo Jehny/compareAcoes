@@ -610,7 +610,7 @@ footer .texto {
 	background: #707070;
 	color: white;
 	border: none;
-    padding: 1.3% 4% 1.3% 4%;
+    padding: 1.3% 4% 1.38% 4%;
     font-size: 16px;
     margin-left: -3px;
 }
@@ -701,7 +701,7 @@ footer .texto {
 }
 
 .quadro50 .resultados li {
-	font-size: 12px !important;
+	font-size: 10px !important;
 	width: 13%;
 }
 
@@ -845,12 +845,13 @@ No media query since this is the default in Bootstrap */
 	}
 
 	#busca form input {width: 71% !important; font-size: 12px !important;}
-	#busca form button {padding: 3.8% 4% 4% 4% !important;}
+	#busca form button {padding: 3.7% 4% 4.2% 4% !important;}
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
-	.quadro .listCompare .remove {padding: 0 2px 0 0;}
+	.quadro .listCompare .remove {padding: 5px 2px 0 0;}
 	.quadro form input {width: 74% !important; font-size: 12px !important;}
 	.quadro form button {padding: 2% 2% 2% 2% !important;}
 	.quadro .resultados li {padding: 1.5% 0.5% 1.5% 0.5% !important; font-size: 8px !important;}
+	.quadro .listMes li { font-size: 8px; }
 	.quadro50 .resultados li {font-size: 9px !important;}
 	.quadro .titleAndLink li {font-size: 14px;}
 
@@ -927,7 +928,7 @@ No media query since this is the default in Bootstrap */
 	}
 
 	#busca form button {
-		padding: 1.6% 4% 1.7% 4%;
+		padding: 1.7% 4% 1.8% 4%;
 	}
 	/*.quadro .listCompare i {
 		margin-top: -12% !important;
@@ -943,12 +944,14 @@ No media query since this is the default in Bootstrap */
 	}
 
 	.quadro .listMes li {
-		font-size: 9px;
+		font-size: 9px !important;
 	}
 
 	.quadro .resultados li, .quadro50 .listMes li {
 		font-size: 10px;
+		padding: 1.5% 0 1.5% 0;
 	}
+	.quadro {}
 
 	.quadro50 .resultados li {
 		font-size: 7px;
@@ -963,7 +966,7 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 	.quadro .titleAndLink li {font-size: 14px;}
-	#busca form button { padding: 3% 4% 3.3% 4%; }
+	#busca form button { padding: 3.2% 4% 3.5% 4% }
 		#topo header {background: black;}
 	#busca {background: black;}
 }
@@ -976,7 +979,7 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare i {float: right;}
 	#topo header {background: black;}
 	#busca {background: black;}
-	.buscarForm button{padding: 3% 4% 3.2% 4% !important;}
+	.buscarForm button{padding: 3% 4% 3.4% 4% !important;}
 }
 
 @media (width: 411px){
@@ -986,7 +989,7 @@ No media query since this is the default in Bootstrap */
 	}
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
-	.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+	.buscarForm button{padding: 2.89% 4% 3% 4% !important;}
 }
 @media (width: 414px){
 	#topo {
@@ -997,7 +1000,7 @@ No media query since this is the default in Bootstrap */
 	#topo header {background: black;}
 	#busca {background: black;}
 	.quadro .listCompare i {float: right;}
-	.buscarForm button{padding: 2.9% 4% 3% 4% !important;}
+	.buscarForm button{padding: 2.9% 4% 3.1% 4% !important;}
 
 }
 
@@ -1124,13 +1127,15 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
-	#busca form button{padding: 2.2% 4% 2.4% 4%;}
+	#busca form button{padding: 2.3% 4% 2.3% 4%;}
 }
 
 @media (width: 1024px) {
 	#topo header h1 a img {
 		margin-top: 9%;
 	}
+	#busca form button{ padding: 1.69% 4% 1.7% 4%;}
+	   
 	#menu nav .logCad a {
 		margin-left: 0%;
 	}
