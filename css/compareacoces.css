@@ -43,6 +43,7 @@
 .container-fluid {
 	padding: 0;
 	width: 100%;
+	background: #147db9;/* 	adicionado uma cor azul de fundo .rodrigo */
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
@@ -756,7 +757,7 @@ footer .textoDash {
 	padding-bottom: 5%;
 }
 .dash {
-    margin-top: 4%;
+/*     margin-top: 4%; retirado pois estava sobrando espaço . rodrigo */
     padding-bottom: 3%;
 }
 .dash .logo img {
