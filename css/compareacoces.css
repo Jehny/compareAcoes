@@ -40,10 +40,14 @@
     font-style: normal;
 }
 
+.fundo-back {
+	background: #147db9;
+	/* 	adicionado uma cor azul de fundo .rodrigo */
+	
+}
 .container-fluid {
 	padding: 0;
 	width: 100%;
-	background: #147db9;/* 	adicionado uma cor azul de fundo .rodrigo */
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
