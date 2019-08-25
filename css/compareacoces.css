@@ -775,7 +775,61 @@ footer .obs {
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
+@media (width: 1024px) {
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {/* top:3%; */}
+
+	#topo header h1 a img {
+		/*margin-top: 9%;*/
+	}
+	#busca form button{ padding: 1.69% 4% 1.7% 4%;}
+	   
+	#menu nav .logCad a {
+		margin-left: 0%;
+	}
+
+	#menu nav li a {
+		padding: 25px 8px 28px 8px;
+	}
+
+	#menu nav {
+		margin-right: 0%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 22px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 12px;	
+	}
+	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
+	.quadro .listCompare i {float: right;}
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+	.dashTopo #buttom_menu {top:3%;}
+	@media (width: 1024px) {.dashTopo #buttom_menu {top:3% !important;}}
+	.ipad {top:3% !important;}
+	
+	
+}
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+	.dashTopo #buttom_menu {top:2%;}
+	.ipadPro {top:2% !important;}
+	@media(width: 1024px) {.dashTopo #buttom_menu {top:2% !important;}}
+	@media (width: 1366px) {
+		.ipadPro {top:3.5% !important;}
+		.ipadProBtn {padding: 1.3% 4% 1.3% 4% !important;}
+	}
+}
 @media (width: 320px) {
+	#topo header h1 a img {margin-top: 10% !important;}
+	#buttom_menu {top: 3% !important;}
+	.dashTopo #topo header h1 a img {width: 77%;margin-top: 5% !important;}
+	.dashTopo #buttom_menu {}
 	#topo {
 		/*overflow: inherit;
 		min-height: 14%;*/
@@ -803,8 +857,8 @@ No media query since this is the default in Bootstrap */
 	    /*margin-top: 4%;*/
 	}
 	#topo header h1 a img {
-	    /*margin-top: 4%;
-	    max-width: 80%;*/
+	    margin-top: 15%;
+	  /*max-width: 80%;*/
 	}
 	#mobile a, #mobile a:hover {
 		padding: 5% 25% 5% 25%;
@@ -864,6 +918,8 @@ No media query since this is the default in Bootstrap */
 
 }
 @media (min-width: 321px) and (max-width: 736px) {
+	.dashTopo #topo header h1 a img {width: 80%;margin-top: 1%;}
+	.dashTopo #buttom_menu {top:9%;}
 	#topo {
 		/*overflow: inherit;
 		min-height: 20%;*/
@@ -882,7 +938,7 @@ No media query since this is the default in Bootstrap */
 	}
 
 	#topo header h1 a img {
-	   /* margin-top: 10%;*/
+	      margin-top: 11%;
 	    
 	    /*max-width: 80%;*/
 	}
@@ -967,22 +1023,31 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 360px){
+	.dashTopo #topo header h1 a img {width: 80%; margin-top: 6% !important;}
+	.dashTopo #buttom_menu {}
 	#topo {
 		/*overflow: inherit;
 		min-height: 16%;*/
 	}
+	#topo header h1 a img {margin-top: 10% !important;}
+	#buttom_menu {top: 4% !important;}
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 	.quadro .titleAndLink li {font-size: 14px;}
 	#busca form button { padding: 3.2% 4% 3.5% 4% }
+	.dashTopo #busca form button { padding: 3.2% 4% 3.5% 4% }
 		#topo header {background: black;}
 	#busca {background: black;}
 }
 @media (width: 375px){
+	.dashTopo #topo header h1 a img {margin-top: 4% !important;}
+	.dashTopo #buttom_menu {}
 	#topo {
 		/*overflow: inherit;
 		min-height: 14%;*/
 	}
+	#topo header h1 a img {margin-top: 10% !important;}
+	#buttom_menu {top: 3% !important;}
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
 	#topo header {background: black;}
@@ -991,6 +1056,10 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 411px){
+	.dashTopo #topo header h1 a img {margin-top: 6% !important;}
+	.dashTopo #buttom_menu {}
+	#topo header h1 a img {margin-top: 10% !important;}
+	#buttom_menu {top: 4% !important;}
 	.dash #topo {
 		overflow: inherit;
 		min-height: 16% !important;
@@ -1000,10 +1069,14 @@ No media query since this is the default in Bootstrap */
 	.buscarForm button{padding: 2.89% 4% 3% 4% !important;}
 }
 @media (width: 414px){
+	.dashTopo #topo header h1 a img {margin-top: 6% !important;}
+	.dashTopo #buttom_menu {}
 	#topo {
 		/*overflow: inherit;
 		min-height: 14%;*/
 	}
+	#topo header h1 a img {margin-top: 10% !important;}
+	#buttom_menu {top: 4% !important;}
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 	#topo header {background: black;}
 	#busca {background: black;}
@@ -1013,12 +1086,16 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 568px){
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {}
 	.dashTopo #topo {
-		min-height: 62%;
+		/* min-height: 62%; */
 	}
 	#topo header h1 a img {
-	    /*max-width: 60% !important;*/
+	    margin-top: 3%;
 	}
+
+	#buttom_menu {top:6%;}
 	#busca form button {
 		padding: 2.2% 4% 2.3% 4% !important;
 	}
@@ -1026,10 +1103,13 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 640px){
-	.dashTopo #topo {min-height: 52%;}
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {}
+	.dashTopo #topo /* {min-height: 52%; */}
 	#topo header h1 a img {
-	   /* max-width: 60% !important;*/
+	       margin-top: 3%;
 	}
+	#buttom_menu {top: 8%;}
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
@@ -1039,12 +1119,14 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 667px){
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {}
 	.dash #topo {
-		min-height: 34%;
+		/* min-height: 34%; */
 	}
 	#topo header {background: black;}
 	#topo header h1 a img {
-	    /*max-width: 60% !important;*/
+	        margin-top: 2%;
 	}
 	#busca {background: black;}
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
@@ -1052,9 +1134,10 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 731px){
-	.dashTopo #topo {min-height: 54%;}
+	.dashTopo #topo {/* min-height: 54%; */}
+	#buttom_menu {top: 7%;}
 	#topo header h1 a img {
-	    /*max-width: 60% !important;*/
+	    margin-top: 0%;
 	}
 	.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
@@ -1063,6 +1146,8 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (width: 736px){
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {}
 	#topo header h1 a img {
 	    /*max-width: 60% !important;*/
 	}
@@ -1074,8 +1159,14 @@ No media query since this is the default in Bootstrap */
 }
 
 @media (min-width: 768px) and (max-width: 823px) {
+	.dashTopo #topo header h1 a img {}
+	.dashTopo #buttom_menu {top:8%; right: 1%;}
+	@media (width: 823px) {.pixel {top:8% !important;}}
+	@media (width: 812px) {.pixel {top:8% !important;}}
+	
+	.dashTopo #busca {padding-top: 3%;}
 	#topo header h1 a img {
-		/*margin-top: 9%;*/
+		margin-top: 9%;
 
 	}
 	#menu nav .logCad a {
@@ -1138,32 +1229,3 @@ No media query since this is the default in Bootstrap */
 	#busca form button{padding: 2.3% 4% 2.3% 4%;}
 }
 
-@media (width: 1024px) {
-	#topo header h1 a img {
-		/*margin-top: 9%;*/
-	}
-	#busca form button{ padding: 1.69% 4% 1.7% 4%;}
-	   
-	#menu nav .logCad a {
-		margin-left: 0%;
-	}
-
-	#menu nav li a {
-		padding: 25px 8px 28px 8px;
-	}
-
-	#menu nav {
-		margin-right: 0%;
-	}
-
-	.carousel-caption h3 {
-		font-size: 22px;
-	}
-
-	.carousel-caption h4 {
-		font-size: 12px;	
-	}
-	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
-	.quadro .listCompare i {float: right;}
-
-}
