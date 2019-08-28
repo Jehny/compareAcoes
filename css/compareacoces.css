@@ -664,10 +664,12 @@ footer .texto {
 	color: white;
 	background: #017AB4;
 	padding: 0.5% 1% 0.5% 1%;
-	width: 13%;
-	font-size: 12px;
+	width: 14%;
+	font-size: 14px;
 	text-align: center;
+	font-family: 'Roboto';
 }
+.quadro50 .listMes li {width: 13.7% !important;}
 
 .quadro .listCompare { 
 	background: white; 
@@ -708,15 +710,18 @@ footer .texto {
 }
 
 .quadro50 .resultados li {
-	font-size: 10px !important;
-	width: 13%;
+	font-size: 0.9em !important;
+    min-width: 13.7% !important;
+    padding: 1% 0% 1% 0% !important;
 }
 
 .quadro .resultados li {
 	border-right: 1px solid #e2e0e0;
-	padding: 1.5%;
-	min-width: 13%;
-	text-align: center;
+	padding: 1% 1.5% 1% 1.5%;
+    min-width: 14%;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Roboto-CondLight';
 }
 
 .quadro .resultados li:last-child {
@@ -1008,17 +1013,28 @@ No media query since this is the default in Bootstrap */
 	}
 
 	.quadro .listMes li {
-		font-size: 9px !important;
+		font-size: 16px !important;
+	    width: 32.5%;
+	    padding-top: 2%;
+	    padding-bottom: 2%;
 	}
 
-	.quadro .resultados li, .quadro50 .listMes li {
-		font-size: 10px;
-		padding: 1.5% 0 1.5% 0;
+	.quadro .resultados li{
+		font-size: 16px;
+	    padding: 1.5% 0 1.5% 0;
+	    width: 32.55%;
 	}
-	.quadro {}
+	.quadro50 .listMes li {
+		font-size: 14px !important;
+	    padding: 1.5% 0 1.5% 0;
+	    width: 32.48% !important;
+	}
+	.quadro .resultados .tipo {}
 
 	.quadro50 .resultados li {
-		font-size: 7px;
+		font-size: 14px!important;
+	    padding: 1.5% 0 1.5% 0;
+	    width: 32.46%;
 	}
 }
 
