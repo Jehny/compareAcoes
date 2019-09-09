@@ -655,16 +655,18 @@ footer .texto {
 }
 
 .quadro .titleAndLink li img {
-	width: 12%;
-    margin-left: 7%;
+	width: 2.5%;
+    margin-left: 1%;
     margin-top: -5px;
 }
+
+.quadro .listMes {display: flex;}
 
 .quadro .listMes li {
 	color: white;
 	background: #017AB4;
 	padding: 0.5% 1% 0.5% 1%;
-	width: 14%;
+	width: 15%;
 	font-size: 14px;
 	text-align: center;
 	font-family: 'Roboto';
@@ -687,14 +689,15 @@ footer .texto {
 	color: #707070;
 	font-size: 12px;
 	margin-top: 0.5%;
+	margin-bottom: 5px;
 
 }
 .quadro .listCompare .remove {
-	padding-top: 1%;
+	max-width: inherit;
 }
 .quadro .listCompare i { 
-	
 	float: right;
+	margin-top: -50px;
 }
 
 .quadro .grafico {
@@ -707,18 +710,19 @@ footer .texto {
 
 .quadro .resultados {
 	background: white;
+	display: flex;
 }
 
 .quadro50 .resultados li {
 	font-size: 0.9em !important;
-    min-width: 13.5% !important;
+    min-width: 14.5% !important;
     padding: 1% 0% 1% 0% !important;
 }
 
 .quadro .resultados li {
 	border-left: 1px solid #e2e0e0;
 	padding: 1% 1.5% 1% 1.5%;
-    min-width: 13.95%;
+    min-width: 14.3%;
     text-align: center;
     font-size: 1.1em;
     font-family: 'Roboto-CondLight';
@@ -764,7 +768,9 @@ footer .texto {
 footer .textoDash {
 	padding-top: 5%;
 	padding-bottom: 5%;
+	color: white;
 }
+footer .textoDash p {margin-bottom: 1%; color: white;}
 .dash {
 /*     margin-top: 4%; retirado pois estava sobrando espaço . rodrigo */
     padding-bottom: 3%;
@@ -777,6 +783,7 @@ footer .obs {
 	padding-left: 2%;
 	padding-right: 2%;
 }
+footer .obs p{color: white; padding: 0% 2% 2% 2%;}
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
@@ -811,6 +818,7 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
 
+
 }
 
 
@@ -821,15 +829,15 @@ No media query since this is the default in Bootstrap */
 	@media(width: 1024px) { 
 		#buttom_menu {top:2%;}
 		/*.quadro .listMes li {width: 32.89%;}*/
-
 	}
+	@media(width: 1366px) {.quadro50 .listMes li {width: 14.5%;}}
 }
 @media (max-width: 1024px) and (min-width: 768px){
 	.dashTopo #buttom_menu {top:3%;}
 	@media (width: 1024px) {
 		.dashTopo #buttom_menu {top:3% !important;}
-		.quadro .listMes li {width: 13.89%;}
-		.quadro .resultados li {min-width: 13.8%;}
+		.quadro .listMes li {width: 15%;}
+		.quadro .resultados li {min-width: 14.5%;}
 		.quadro50 .listMes li {
 			width: 13.89%;
 			height: 48px;
@@ -840,6 +848,7 @@ No media query since this is the default in Bootstrap */
 	}
 	.ipad {top:3% !important;}
 
+	@media (width: 768px){.hidden-xs, .hidden-sm {display: none;}}
 	
 	
 }
@@ -848,6 +857,7 @@ No media query since this is the default in Bootstrap */
 	.ipadProBtn {padding: 1.3% 4% 1.3% 4% !important;}
 }
 @media (min-width: 768px) and (max-width: 823px) {
+	.hidden-xs, .hidden-sm {display: none;}
 	.dashTopo #topo header h1 a img {}
 	.dashTopo #buttom_menu {top:8%; right: 1%;}
 	@media (width: 823px) {.pixel {top:8% !important;}}
@@ -916,13 +926,14 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
 	#busca form button{padding: 2.3% 4% 2.3% 4%;}
-	.quadro .listMes li {width: 32.89%;}
-	.quadro50 .listMes li {width: 32.5%;}
+	.quadro .listMes li {width: 33.5%;}
+	.quadro50 .listMes li {width: 33.5%;}
 	.quadro .resultados li {width: 32.55%;}
 	.quadro50 .resultados li {width: 32.4%;}
 }
 
 @media (min-width: 321px) and (max-width: 736px) {
+	.hidden-xs, .hidden-sm {display: none;}
 	.dashTopo #topo header h1 a img {width: 80%;margin-top: 1%;}
 	.dashTopo #buttom_menu {top:9%;}
 	#topo {
@@ -1009,7 +1020,7 @@ No media query since this is the default in Bootstrap */
 	}
 
 	.quadro form button {
-		padding: 1.5% 2% 1.5% 2% !important;
+		padding: 0.8% 2% 1.3% 2% !important;
 	}
 
 	.quadro .listMes li {
@@ -1045,8 +1056,8 @@ No media query since this is the default in Bootstrap */
 		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
 		.quadro .listCompare i {float: right;}
 		.quadro .resultados li, .quadro50 .listMes li {font-size: 14px;}
-		.quadro .listMes li { width: 32.85%;}
-		.quadro50 .listMes li {width:32.84%;}
+		.quadro .listMes li { width: 33.5%;}
+		.quadro50 .listMes li {width:33.5%;}
 	}
 
 	@media (width: 640px){
@@ -1056,8 +1067,8 @@ No media query since this is the default in Bootstrap */
 		#topo header h1 a img {
 		       margin-top: 3%;
 		}
-		.quadro .listMes li { width: 32.85%;}
-		.quadro50 .listMes li {width:32.84%;}
+		.quadro .listMes li { width: 33.5%;}
+		.quadro50 .listMes li {width:33.5%;}
 		/*#buttom_menu {top: 8%;}*/
 		.quadro .listCompare .desc {padding-left: 0; padding-right: 0;}
 		.quadro .listCompare .remove {padding: 0 2px 0 0; margin-top: 2%;}
@@ -1082,8 +1093,8 @@ No media query since this is the default in Bootstrap */
 			padding: 2.2% 4% 2.3% 4% !important;
 		}
 		.quadro .listCompare .remove { margin-top: 2%; }
-		.quadro .listMes li { width: 32.7%;}
-		.quadro50 .listMes li {width:32.7%;}
+		.quadro .listMes li { width: 33.5%;}
+		.quadro50 .listMes li {width:33.5%;}
 	}
 	@media (width: 411px){
 		.dashTopo #topo header h1 a img {margin-top: 6% !important;}
@@ -1097,8 +1108,8 @@ No media query since this is the default in Bootstrap */
 		.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 		.quadro .listCompare i {float: right;}
 		.buscarForm button{padding: 2.89% 4% 3% 4% !important;}
-		.quadro .listMes li {width: 32.8%;}
-		.quadro50 .listMes li {width: 32.7%;}
+		.quadro .listMes li {width: 33.5%;}
+		.quadro50 .listMes li {width: 33.5%;}
 	}
 	@media (width: 360px){
 		.dashTopo #topo header h1 a img {width: 80%; margin-top: 6% !important;}
@@ -1116,8 +1127,8 @@ No media query since this is the default in Bootstrap */
 		.dashTopo #busca form button { padding: 3.2% 4% 3.5% 4% }
 			#topo header {background: black;}
 		#busca {background: black;}
-		.quadro .listMes li {width: 32.55%;}
-		.quadro50 .listMes li {width: 32.4%;}
+		.quadro .listMes li {width: 33.5%;}
+		.quadro50 .listMes li {width: 33.5%;}
 	}
 
 }
@@ -1149,8 +1160,8 @@ No media query since this is the default in Bootstrap */
 	#busca {background: black;}
 	.quadro .listCompare .remove {padding: 0 0 0 0; margin-top: 2%;}
 	.quadro .listCompare i {float: right;}
-	.quadro .listMes li {width: 32.8%;}
-	.quadro50 .listMes li {width: 32.87%;}
+	.quadro .listMes li {width: 33.5%;}
+	.quadro50 .listMes li {width: 33.5%;}
 }
 
 
@@ -1168,7 +1179,7 @@ No media query since this is the default in Bootstrap */
 	#busca {background: black;}
 	.quadro .listCompare i {float: right;}
 	.buscarForm button{padding: 2.9% 4% 3.1% 4% !important;}
-	.quadro .listMes li {width: 32.55%;}
+	.quadro .listMes li {width: 33.5%;}
 
 }
 
@@ -1186,10 +1197,11 @@ No media query since this is the default in Bootstrap */
 	#topo header {background: black;}
 	#busca {background: black;}
 	.buscarForm button{padding: 3% 4% 3.4% 4% !important;}
-	.quadro .listMes li {width: 32.55%;}
-	.quadro50 .listMes li {width: 32.4%;}
+	.quadro .listMes li {width: 33.5%;}
+	.quadro50 .listMes li {width: 33.5%;}
 }
 @media (width: 320px) {
+	.hidden-xs, .hidden-sm {display: none;}
 	#topo header h1 a img {margin-top: 10% !important;}
 	#buttom_menu {top: 3% !important;}
 	.dashTopo #topo header h1 a img {width: 77%;margin-top: 5% !important;}
@@ -1275,13 +1287,17 @@ No media query since this is the default in Bootstrap */
 	.quadro .listCompare .remove {padding: 5px 2px 0 0;}
 	.quadro form input {width: 74% !important; font-size: 12px !important;}
 	.quadro form button {padding: 2% 2% 2% 2% !important;}
-	.quadro .resultados li {padding: 1.5% 0.5% 1.5% 0.5% !important; font-size: 8px !important;}
-	.quadro .listMes li { font-size: 8px; }
-	.quadro50 .resultados li {font-size: 9px !important;}
+	.quadro .resultados li {padding: 1.5% 0.5% 1.5% 0.5% !important; font-size: 12px !important;}
+	.quadro .listMes li { font-size: 12px; }
+	.quadro50 .resultados li {font-size: 12px !important;}
 	.quadro .titleAndLink li {font-size: 14px;}
-	.quadro .listMes li {width: 32.4%;}
-	.quadro50 .listMes li {width: 32.3%;}
+	.quadro .listMes li {width: 33.5%;}
+	.quadro50 .listMes li {width: 33.3%;}
 	.quadro .resultados li {width: 32.4%;}
 	.quadro50 .resultados li{width: 32.3%;}
 
+}
+
+@media(min-width: 320px) and (max-width: 823px) {
+	footer .row {margin: auto; }
 }
